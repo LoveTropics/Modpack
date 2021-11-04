@@ -1,0 +1,122 @@
+[general]
+	clientID = 746316323067396126
+	enabled = true
+	debugging = false
+	configScreen = false
+	launcherIntegration = false
+	updater = false
+	version = 10
+
+[init]
+	enabled = true
+	description = "Launching.."
+	state = ""
+	largeImageKey = "lt21"
+	largeImageText = "Love Tropics"
+	smallImageKey = ""
+	smallImageText = ""
+[[init.buttons]]
+	label = "Watch Love Tropics"
+	url = "https://lovetropics.org"
+
+[main_menu]
+	enabled = true
+	description = "%player%"
+	state = "Chilling in the menu"
+	largeImageKey = "lt21"
+	largeImageText = "Love Tropics"
+	smallImageKey = ""
+	smallImageText = ""
+[[main_menu.buttons]]
+	label = "Watch Love Tropics"
+	url = "https://lovetropics.org"
+
+[server_list]
+	enabled = true
+	description = "%player%"
+	state = "Chilling in the menu"
+	largeImageKey = "lt21"
+	largeImageText = "Love Tropics"
+	smallImageKey = ""
+	smallImageText = ""
+[[server_list.buttons]]
+	label = "Watch Love Tropics"
+	url = "https://lovetropics.org"
+
+[join_game]
+	enabled = true
+	description = "%player%"
+	state = "Chilling in the menu"
+	largeImageKey = "lt21"
+	largeImageText = "Love Tropics"
+	smallImageKey = ""
+	smallImageText = ""
+[[join_game.buttons]]
+	label = "Watch Love Tropics"
+	url = "https://lovetropics.org"
+
+[single_player]
+	enabled = true
+	description = "%player%"
+	state = "Playing Singleplayer"
+	largeImageKey = "lt21"
+	largeImageText = "Love Tropics"
+	smallImageKey = ""
+	smallImageText = ""
+[[single_player.buttons]]
+	label = "Watch Love Tropics"
+	url = "https://lovetropics.org"
+	
+[multi_player]
+	enabled = true
+	description = "%player%"
+	state = "Playing on the server"
+	largeImageKey = "lt21"
+	largeImageText = "Love Tropics"
+	smallImageKey = ""
+	smallImageText = ""
+[[multi_player.buttons]]
+	label = "Watch Love Tropics"
+	url = "https://lovetropics.org"
+
+[generic]
+	description = ""
+	state = ""
+	largeImageKey = "lt21"
+	largeImageText = "Love Tropics"
+	smallImageKey = ""
+	smallImageText = ""
+[[generic.buttons]]
+	label = "Watch Love Tropics"
+	url = "https://lovetropics.org"
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = "overworld"
+		largeImageText = "In the Overworld"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = "nether"
+		largeImageText = "In the Nether"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = "end"
+		largeImageText = "In the End"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
