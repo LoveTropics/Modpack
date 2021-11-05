@@ -11,3 +11,4 @@ config/flywheel-client.toml
 config/ltdonations-common.toml
 config/ltminigames-client.toml
 config/ltminigames-common.toml
+servers.dat
