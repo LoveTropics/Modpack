@@ -6,3 +6,8 @@ server-resource-packs/
 defaultconfigs/
 saves/
 schematics/
+config/create-common.toml
+config/flywheel-client.toml
+config/ltdonations-common.toml
+config/ltminigames-client.toml
+config/ltminigames-common.toml
