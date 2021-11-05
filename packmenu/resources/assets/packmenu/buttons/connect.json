@@ -12,5 +12,5 @@
 	"langKey": "ltmenu.connect",
 	"action": "CONNECT_TO_SERVER",
 	"texture": "packmenu:textures/gui/ltconnect.png",
-	"data": "185.209.178.4:25562"
+	"data": "185.209.178.4"
 }
