@@ -11,5 +11,9 @@ config/flywheel-client.toml
 config/ltdonations-common.toml
 config/ltminigames-client.toml
 config/ltminigames-common.toml
+config/xaero*
 servers.dat
 icon.png
+Xaero*/
+!servermods/serverpackutility.jar
+servermods/*.jar
