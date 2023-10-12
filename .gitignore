@@ -17,3 +17,4 @@ icon.png
 Xaero*/
 !servermods/serverpackutility.jar
 servermods/*.jar
+config/balm-common.toml
