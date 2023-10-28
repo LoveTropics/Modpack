@@ -1,3 +1,4 @@
+# Client folders
 crash-reports/
 logs/
 screenshots/
@@ -6,15 +7,25 @@ server-resource-packs/
 defaultconfigs/
 saves/
 schematics/
-config/create-common.toml
-config/flywheel-client.toml
-config/ltdonations-common.toml
-config/ltminigames-client.toml
-config/ltminigames-common.toml
-config/xaero*
-servers.dat
-icon.png
 Xaero*/
+temp/
+mods/panorama/
+
+# Don't distribute SPL mods, they'll be pulled down anyway
 !servermods/serverpackutility.jar
-servermods/*.jar
-config/balm-common.toml
+servermods/
+clientmods/
+
+# Only distribute required configs
+config/
+!config/fml.toml
+!config/forge-client.toml
+!config/forge-common.toml
+!config/packmenu.cfg
+!config/simple-rpc/
+
+# Other files
+options.txt
+servers.dat*
+panorama.dat
+icon.png
