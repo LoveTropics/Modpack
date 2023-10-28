@@ -16,6 +16,9 @@ mods/panorama/
 servermods/
 clientmods/
 
+# Ignore panorama screenshot mod
+mods/panorama*
+
 # Only distribute required configs
 config/
 !config/fml.toml
