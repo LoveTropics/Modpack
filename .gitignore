@@ -32,3 +32,5 @@ options.txt
 servers.dat*
 panorama.dat
 icon.png
+usernamecache.json
+usercache.json
