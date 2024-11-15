@@ -16,6 +16,5 @@ jobs:
             config/
             icons/
             mods/
-            packmenu/
             servermods/
             options.txt
