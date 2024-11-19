@@ -1,0 +1,21 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/simple-rpc/server-entries.toml"
+hash = "8df93f32e1e331a11a5119038d148ee4fd4e2b8bb748242815eb4203398fc2a1"
+
+[[files]]
+file = "config/simple-rpc/simple-rpc.toml"
+hash = "dd2d90432f7449abccac3369a92a91553fbe00a6f1ed5e5a77a3da5e87a3f2ca"
+
+[[files]]
+file = "mods/serverpacklocator.jar"
+hash = "a1ead3d00a8affce33f12c55f0cb354b988b5c4a34858fb3e7956d13e6a80ebe"
+
+[[files]]
+file = "options.txt"
+hash = "2ea7f0ac940c148cf93c362f009fc96ce7eae33914127c10d123b91a24b18dec"
+
+[[files]]
+file = "servermods/serverpacklocator.toml"
+hash = "7b12a9835c3ddabf77938bab979c076a657c39f9eefbcbb1d3bc641674c88c5e"

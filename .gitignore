@@ -34,3 +34,6 @@ panorama.dat
 icon.png
 usernamecache.json
 usercache.json
+
+# Workspace
+.idea/

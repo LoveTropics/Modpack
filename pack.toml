@@ -1,0 +1,13 @@
+name = "Love Tropics 2024"
+author = "The Love Tropics Team"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "fc612a0e7bd24e1402b190d56d4b434f87d012724ecb0e295ecc1ca4816d29fc"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.77"

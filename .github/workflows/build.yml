@@ -1,0 +1,36 @@
+name: Build with Packwiz
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+      - run: go install github.com/packwiz/packwiz@latest
+
+      - name: Build Modrinth Modpack
+        run: |
+          packwiz modrinth export
+        shell: bash
+
+      - name: Build CurseForge Modpack
+        run: |
+          packwiz curseforge export
+        shell: bash
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Modrinth Pack
+          path: |
+            *.mrpack
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: CurseForge Pack
+          path: |
+            *.zip
