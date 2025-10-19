@@ -2,20 +2,32 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/simple-rpc/server-entries.toml"
-hash = "8df93f32e1e331a11a5119038d148ee4fd4e2b8bb748242815eb4203398fc2a1"
+hash = "6dfd7e6dfd8bb89d93c9eadc92716a7d8cd05005f526beec8174db4ca3ebb019"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "dd2d90432f7449abccac3369a92a91553fbe00a6f1ed5e5a77a3da5e87a3f2ca"
+hash = "259167135c9924feb27e2e0bb8ec876c4e4cc3eceae0c13614d9c09a2fa1b9c6"
+
+[[files]]
+file = "mods/CraterLib-NeoForge-1.21.6-2.1.5.jar"
+hash = "b82fd454d4a9122bff4b53149bfa2e4ffebc6e1df8d0dd52acff7e3855d89482"
+
+[[files]]
+file = "mods/SimpleRPC-4.0.4.jar"
+hash = "09aae9fd6e4de743d7e92f8bfbcf18b24824e3c92ba4d51d4d2494e1a162febe"
 
 [[files]]
 file = "mods/serverpacklocator.jar"
-hash = "a1ead3d00a8affce33f12c55f0cb354b988b5c4a34858fb3e7956d13e6a80ebe"
+hash = "6a3b1e00d7666b04e19624ea6c8173903276b3f715842d6820d53e1f85ee69cc"
 
 [[files]]
 file = "options.txt"
 hash = "2ea7f0ac940c148cf93c362f009fc96ce7eae33914127c10d123b91a24b18dec"
 
 [[files]]
-file = "servermods/serverpacklocator.toml"
-hash = "7b12a9835c3ddabf77938bab979c076a657c39f9eefbcbb1d3bc641674c88c5e"
+file = "spl/config.toml"
+hash = "6e8bf083dca0e8c7cda0389e4bb848d0fccfb3e8e951b333461d79f8bc1b8a67"
+
+[[files]]
+file = "spl/serverpacklocator-utilmod.jar"
+hash = "c2193ba27cdf2ceb4d294fe2e7fd6ab81b5a8e59abdd0b7326648638514d0bfa"

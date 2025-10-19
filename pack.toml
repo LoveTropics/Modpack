@@ -1,4 +1,4 @@
-name = "Love Tropics 2024"
+name = "Love Tropics 2025"
 author = "The Love Tropics Team"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,8 +6,8 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fc612a0e7bd24e1402b190d56d4b434f87d012724ecb0e295ecc1ca4816d29fc"
+hash = "6b53f921f5d81d7e52301413e13296bec4a0e7c6f6f6881eca0f7e05e7db5891"
 
 [versions]
-minecraft = "1.21.1"
-neoforge = "21.1.77"
+minecraft = "1.21.8"
+neoforge = "21.8.47"
