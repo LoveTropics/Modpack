@@ -37,3 +37,4 @@ usercache.json
 
 # Workspace
 .idea/
+.bin/
