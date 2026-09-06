@@ -1,2 +1,2 @@
-security = {password = {password = "!!CHANGEME_WHEN_USING_PASSWORD_MODE!!"}, type = "NONE"}
+security = {password = {password = "!!CHANGEME_WHEN_USING_PASSWORD_MODE!!"}, type = "PUBLICKEY"}
 client = {remoteServer = "https://spl.lovetropics.org/", downloadedServerContent = [], quickPlayServer = ""}
