@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:[]
+resourcePacks:["vanilla","mod/contex:builtin_glass_ct","mod_resources","mod/ltextras:contex","mod/tropicraft:resourcepacks/tropicraft_texture_update"]
 incompatibleResourcePacks:[]
 japaneseGlyphVariants:false
 narratorHotkey:true
