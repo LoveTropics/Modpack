@@ -1,4 +1,4 @@
-name: Build with Packwiz
+name: Build packs
 
 on:
   push:
@@ -34,3 +34,11 @@ jobs:
           name: CurseForge Pack
           path: |
             *.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: manual
+          path: |
+            spl/
+            mods/
+            options.txt
