@@ -1,2 +1,2 @@
 security = {password = {password = "!!CHANGEME_WHEN_USING_PASSWORD_MODE!!"}, type = "NONE"}
-client = {remoteServer = "https://spl.lovetropics.org/", downloadedServerContent = [], quickPlayServer = ""}
+client = {remoteServer = "https://spl.staging.lovetropics.org/", downloadedServerContent = [], quickPlayServer = ""}

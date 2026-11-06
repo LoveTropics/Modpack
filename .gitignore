@@ -21,11 +21,7 @@ mods/panorama*
 
 # Only distribute required configs
 config/
-!config/fml.toml
-!config/forge-client.toml
-!config/forge-common.toml
-!config/packmenu.cfg
-!config/simple-rpc/
+!config/ltextras-common.toml
 
 # Other files
 options.txt

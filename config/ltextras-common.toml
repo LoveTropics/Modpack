@@ -1,0 +1,26 @@
+#If true, clients will automatically try to reconnect when the server closes.
+clientAutoRejoin = false
+#The IP address for the Love Tropics event server
+serverAddress = "play.staging.lovetropics.org"
+#The URL that players should be directed to for donating.
+donateUrl = "https://lovetropics.org/donate"
+
+#Commands
+[commands]
+	#If not blank, the /tpa command will only be allowed in this dimension
+	tpaDimension = "tropicraft:tropics"
+
+#Connection to the tech stack
+[techStack]
+	#API Key used to allow authentication with the tech stack
+	authKey = ""
+	#API URL to get stream schedule from
+	schedule = "http://localhost/schedule"
+	#API URL to request translations from
+	translationUrl = ""
+	#URL the web socket is running on
+	webSocketUrl = "wss://localhost:443/ws"
+	#URL override for Mojang minecraftservices API used for profile lookups (i.e. https://api.minecraftservices.com under /minecraft/profile/lookup/name/<name>)
+	profileServiceUrlOverride = ""
+	#URL override for Mojang sessionserver API used for profile lookups (i.e. https://sessionserver.mojang.com under /session/minecraft/profile/<uuid>)
+	profileSessionServiceUrlOverride = ""
